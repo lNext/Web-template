@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Trabajo</title>
+<link rel="stylesheet" href="estilo.css">	
+</head>
+<body>
+<div class="navbar">
+  <a href="#Opcion1">Opcion1</a>
+  <a href="#Opcion2">Opcion2</a>
+  <a href="#Opcion3">Opcion3</a>
+  <a href="#Opcion4">Opcion4</a>
+  <p class="hora">
+  <!--Código hora en JavaScript-->
+  <!--If you don't speak spanish and you need the date, you can change the name of the months, within ''-->  
+	<script>
+		var meses = new Array ('Enero','Febrero','Marzo','abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre');
+		var f=new Date();
+		document.write(f.getDate() + ' de ' + meses[f.getMonth()] + ' de ' + f.getFullYear());
+    </script>
+  <!--Fin código JavaScript-->
+  </p>
+</div>
+<div class="portada">
+	<center>
+		<img src="fondo.png" alt="Cafe" class="responsive">
+	</center>
+	<div class="texto1">
+		¡Lorem ipsum dolor sit amet, consectetur adipisicing elit!
+	</div>	
+</div>
+
+<footer class="footer">Dev by Sebastian <a class="footertext2">&copy; 2020 </a></footer>
+</body>
+</html>
